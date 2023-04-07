@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <center><form action="#">
+        <div class="two">
+            <div class="first">  
+                <h3>Registration form</h3>
+                <div class="username-cont">
+                    <img src="img/username.png" alt="username">
+                    <input type="text" name="username" id="username" placeholder="Username">
+                </div>
+                <div class="email-cont">
+                    <img src="img/email.png" alt="username">
+                    <input type="email" name="emailaddress" id="emailaddress" placeholder="Email address">
+                </div>
+                <div class="flex flex-4">
+                    <img src="img/pswd.png" alt="pswd">
+                    
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm password">
+            
+                </div>
+            </div>
+
+            <div class="flex-3">
+                <div class="left">
+                    <h3 class="h3">Personal details</h3>
+                </div>
+                <div class="flex flex-5">
+                    <input type="text" name="firstname" id="firstname" placeholder="First name">
+                    <input type="email" name="lastname" id="lastname" placeholder="Last name">
+                </div>
+                <div class="flex flex-5">
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="date" name="date" id="date">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="flex-2">
+                <label>
+                    <input type="checkbox" name="offers" id="offers">
+                    <span>I want to receive mews and special offers</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="agree" id="agree">
+                    <span>I agree with Terms and Conditions</span>
+                </label>
+            </div>
+            <hr>
+            <input type="submit" id="submit" value="Submit">
+        </div>
+    </form></center>
+</body>
+</html>
